@@ -1,0 +1,24 @@
+
+table,td,th{
+border: 1px solid;
+
+}
+.black{
+    background-color: black;;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 300px;
+}
+.white{
+    background-color: white;
+}
+td{
+    height: 30px;
+    width: 30px;
+}
+.chess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    color: rgb(20, 20, 144);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.rimage{
+    height: 600px;
+    width: 900px;
+}
+.rohitpara,h4{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 900px;
+}
+li{
+    
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.logo{
+    
+    margin-top: 90px;
+}
+.rimage1{
+    height: 500px;
+    width: 500px;
+}
