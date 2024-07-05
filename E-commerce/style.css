@@ -1,0 +1,166 @@
+.home,.about{
+    height: 100vh;
+}
+.services{
+    height: 70vh;
+}
+.contact{
+    height: 50vh;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 470px;
+    font-size: larger;
+    
+}
+li{
+    display: inline;
+    margin-right: 30px;
+    color: white;
+    
+}
+.description{
+   
+    padding-left: 300px;
+    padding-top: 200px;
+   
+   
+}
+.header{
+    background-color: rgb(33, 101, 247);
+    padding-bottom: 30px;
+}
+.home{
+    background-color: rgb(248, 223, 0);
+}
+body{
+    background-color: beige;
+}
+.submit{
+    size: 40;
+}
+
+.button1{
+    padding-left: 120px;
+    padding-top: 30px;
+    margin-left: 380px;
+    
+   
+}
+.input{
+    margin-left: 440px;
+}
+.image{
+    height: 100vh;
+    width: 200vh;
+}
+a{
+    color: white;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 50px;
+   height: 30px;
+   width: 40px;
+   border-radius: 30px;
+}
+.abimage{
+    background-color: aqua;
+}
+
+.carimage{
+    max-width: 100%;
+    max-height:100%;
+    margin-left: 60px;
+}
+.about{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-left: 70px;
+}
+
+.aboutline{
+    margin-left: 90px;
+}
+.stitle{
+    margin-left: 450px;
+    padding-bottom: 40px;
+}
+
+.simage1{
+    height: 250px;
+    width: 250px;
+}
+.simage2{
+    height: 250px;
+    width: 250px;
+}
+.simage3{
+    height: 250px;
+    width: 250px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+label {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+}
+
+input, label {
+    float:left;
+    margin-bottom: 40px;
+}
+.ctitle{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+form{
+    display: block;
+    margin-left: 30px;
+}
+button{
+    margin-left: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    margin-left: 220px;
+    
+}
+.b1{
+    background-color: black;
+    color: white;
+}
+.b2{
+    background-color: black;
+    color: white;
+}
+
+.h2{
+    text-align: center;
+}
+.navii{
+    display: flex;
+    justify-content: end;
+   
+}
