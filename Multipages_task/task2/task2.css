@@ -1,0 +1,33 @@
+header{
+    background-color: rgb(55, 180, 218);
+    text-align: center;
+    color: white;
+    height: 50px;
+}
+.it1{
+    margin-top: 30px;
+    height: 90px;
+  
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.inc{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    border-radius: 20px;
+}
+.inc2{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    border-radius: 20px;
+}
+h1{
+    padding-left: 20px;
+}
+p{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+body{
+    background-color: rgb(244, 208, 110);
+}
