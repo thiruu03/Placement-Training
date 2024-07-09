@@ -1,0 +1,23 @@
+img{
+    height: 150px;
+    width: 170px;
+    border-radius: 50%;
+}
+.elements{
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+    border-radius: 30px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+body{
+    background-color: rgb(170, 170, 170);
+}
