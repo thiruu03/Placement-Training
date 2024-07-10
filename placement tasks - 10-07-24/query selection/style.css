@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ghostwhite;
+}
+.main2{
+    border: 1px solid black;
+    padding: 30px;
+    margin-top: 100px;
+    background-color: white;
+    
+}
+.ele{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+   
+}
+h2{
+    text-align: start;
+}
+.main{
+    width: 500px;
+}
+button{
+    border-radius: 70%;
+    height: 20px;
+    width: 20px;
+}

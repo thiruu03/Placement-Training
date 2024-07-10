@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(139, 139, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+fieldset{
+    border: none;
+    background-color: rgba(0, 0, 89, 0.703);
+    color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    font-size: larger;
+
+}
+legend{
+    background-color: rgb(55, 93, 94);
+}
