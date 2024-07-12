@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="task10.2.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner {
+    position: relative;
+    background-image: url('hd.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.banner h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.banner button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.category {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.category img {
+    width:600px;
+    height:500px;
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>Sale upto 50% Biggest Discount Hurry! Limited Period Offer <button style="background-color: #000;color: #fff;">Shop Now</button></nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h1>Fashion Sale</h1>
+                <h2>Minimal Menz Style</h2>
+                <p>Discover engaging deals, tailored fashion, and stylish accessories.</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </header>
+    <section class="categories">
+        <div class="category">
+            <img src="https://elements-cover-images-0.imgix.net/c5396c3d-620a-411b-bbb3-a3a17b379eec?auto=compress%2Cformat&w=900&fit=max&s=663e11a93c8efb3f6b28b4058603cbf9" alt="Men's Fashion"  width="200" height="100">
+            <h3>Men's Fashion</h3>
+        </div>
+        <div class="category">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3mUl6FFcmq-aSKrJz1X3y_-1wDJDvB2lKA&usqp=CAU" alt="Women's Fashion"  width="200" height="100">
+            <h3>Women's Fashion</h3>
+        </div>
+        <div class="category">
+            <img src="https://cdn.fcglcdn.com/brainbees/images/m/diwali_new_arrival.webp" alt="Baby Fashion" width="200" height="100">
+            <h3>Baby Fashion</h3>
+        </div>
+    </section>
+</body>
+</html>

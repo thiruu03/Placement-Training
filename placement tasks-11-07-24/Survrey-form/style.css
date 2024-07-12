@@ -1,0 +1,83 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.ele{
+    background-color: rgb(229, 229, 229);
+    width: 700px;
+    padding:20px 20px;
+    
+    
+}
+input{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(206, 206, 206);
+    height: 35px;
+    width: 260px;
+}
+.fname,.lname{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 3px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+.email{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    justify-content: start;
+
+}
+.einput{
+    width: 99%;
+}
+.ckin{
+    height: 15px;
+}
+.first-check{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 90px;
+    margin-bottom: 20px;
+
+}
+button{
+    margin-top: 90px;
+    background-color: orange;
+    border: none;
+    height: 40px;
+    color: white;
+    width: 100%;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px 20px;
+}
+.fc1,.fc2{
+    gap: 3px;
+}
+
