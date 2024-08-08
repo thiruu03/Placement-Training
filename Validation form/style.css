@@ -26,20 +26,22 @@ form{
   box-shadow: rgb(85, 85, 85) 2px 2px 2px; 
   border-radius: 10px;
   background-color: rgb(67, 189, 255);
-  height: 300px;
-  margin-top: 200px;
+  height: 500px;
+  margin-top: 100px;
   display: flex;
   justify-content:center;
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  width: 400px;
+  width: 500px;
 }
 input{
   height: 25px;
   width: 200px;
   border-radius: 4px;
   box-shadow: 2px 2px 2px;
+  padding-left: 6px;
+  font-weight:bold ;
 }
 
 .p{
@@ -65,6 +67,42 @@ input{
     align-items: center;
   
   }
+  .ckbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    
+  }
+  #ck{
+    width: 20px;
+    box-shadow: none;
+    height: 17px;
+    margin-left: 60px;
+  }
+  .confirm-pass{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .gender{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-right: 17px;
+  }
+  select{
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px;
+    font-weight: bold;
+  }
 
   @keyframes anime {
     0%{
@@ -74,11 +112,11 @@ input{
    
     50%{
       background-position: 100%;
-      background-color:rgb(188, 50, 231);
+      background-color:rgb(218, 97, 255);
     }
 
     100%{
       background-position: 0%;
-      background-color: rgb(181, 0, 208);
+      background-color: rgb(122, 40, 255);
     }
   }

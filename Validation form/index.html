@@ -9,14 +9,44 @@
 <body>
  <form>
   <h2>Validation</h2>
+
+  <div class="e">
+    <label for="name">Name :</label>
+    <input type="text" name="name" id="names" placeholder="Steven" required>
+  </div>
+
+
+  <div class="gender">
+    <label for="cars">Gender :</label>
+    <select name="Gender" id="Gender" required>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Others">Others</option>
+    </select>
+  </div>
+
+
+
   <div class="e">
     <label for="Email">Email :</label>
-    <input type="email" name="email" id="email">
+    <input type="email" name="email" id="email" placeholder="123@gmai.com" required>
+  </div>
+
+  <div class="confirm-pass">
+    <label for="">Student Id :</label>
+    <input type="password" id="conpass" placeholder="234" required>  
   </div>
 
     <div class="p">
       <label for="">Password :</label>
-      <input type="password" id="pass">  
+      <input type="password" id="pass" placeholder="********" required>  
+    </div>
+
+   
+
+    <div class="ckbox">
+      <input type="checkbox" name="" id="ck" required>
+      <label for="">I agree the above information</label>
     </div>
 
    <div class="btn">
